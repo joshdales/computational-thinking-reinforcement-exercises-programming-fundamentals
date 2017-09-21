@@ -1,6 +1,6 @@
 #STRING
 puts "length"
-#Returns the number of elements within an array, string, or collection
+#Returns the number of elements within a string, array, or collection
 greetings = ["hi", "hello", "hiya"]
 puts greetings
 puts greetings.length
@@ -25,7 +25,14 @@ puts "start_with?"
 puts "hello".start_with?("he")
 
 #ARRAY
+puts "first"
 #Returns the first item of an array
 #Can be combined with a selector to give the first multiple values
 puts greetings.first
 puts greetings.first(3)
+
+puts "delete_at"
+#Deletes the element that is specified within an array
+greetings = ["hi", "hello", "hiya"]
+greetings.delete_at(1)
+puts greetings
