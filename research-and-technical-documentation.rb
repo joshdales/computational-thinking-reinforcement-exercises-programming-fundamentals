@@ -74,3 +74,6 @@ puts Time.now
 #FILE
 puts "exist?"
 #Returns true boolean value if  file exists in connection with ruby program i.e can be called
+
+puts "extname"
+#Returns the file extension - from the final '.' e.g .rb
