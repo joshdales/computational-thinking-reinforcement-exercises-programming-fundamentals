@@ -69,4 +69,8 @@ puts h.has_value?("100")
 #Class that displayed times and dates
 puts "now"
 #Displayes the current date, local time, and time relative to UTC
-Time.now
+puts Time.now
+
+#FILE
+puts "exist?"
+#Returns true boolean value if  file exists in connection with ruby program i.e can be called
