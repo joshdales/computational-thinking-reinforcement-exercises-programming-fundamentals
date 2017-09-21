@@ -22,5 +22,10 @@ polite_greeting.split
 
 puts "start_with?"
 #Returns a boolean if a string starts with the value given
-"hello".start_with?("he")
-"hello".start_with?("hi")
+puts "hello".start_with?("he")
+
+#ARRAY
+#Returns the first item of an array
+#Can be combined with a selector to give the first multiple values
+puts greetings.first
+puts greetings.first(3)
