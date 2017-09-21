@@ -64,3 +64,9 @@ puts "has_value?"
 #Return true boolean value if any key in the hash has the value present
 h = { "c" => 300, "a" => 100, "d" => 400, "c" => 300  }
 puts h.has_value?("100")
+
+#TIME
+#Class that displayed times and dates
+puts "now"
+#Displayes the current date, local time, and time relative to UTC
+Time.now
