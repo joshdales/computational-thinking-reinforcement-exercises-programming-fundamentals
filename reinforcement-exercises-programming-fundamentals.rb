@@ -1,4 +1,4 @@
-tains = [
+trains = [
 {train: "72C", frequency_in_minutes: 15, direction: "north"},
 {train: "72D", frequency_in_minutes: 15, direction: "south"},
 {train: "610", frequency_in_minutes: 5, direction: "north"},
@@ -28,3 +28,16 @@ trains.each do |train|
     trains_east << train
   end
 end
+
+def trains_direction(list_of_trains, direction)
+  train_direction = []
+  list_of_trains.each do |train|
+    if train[:direction] == direction
+      train_direction << train
+    end
+  end
+  puts train_direction
+end
+
+trains_direction(trains, "north")
+trains_direction(trains, "east")
