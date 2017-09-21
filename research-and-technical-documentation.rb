@@ -14,3 +14,8 @@ puts "strip"
 long_polite_greeting = "      Hi there, very nice to meet you.       "
 puts long_polite_greeting
 puts polite_greeting.strip
+
+puts "split"
+#Breaks a string into an array word by word
+polite_greeting = "Hi there, very nice to meet you."
+polite_greeting.split
