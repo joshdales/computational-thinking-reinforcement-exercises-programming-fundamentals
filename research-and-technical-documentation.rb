@@ -36,3 +36,9 @@ puts "delete_at"
 greetings = ["hi", "hello", "hiya"]
 greetings.delete_at(1)
 puts greetings
+
+puts "delete"
+#Deletes the specified element from an array
+greetings = ["hi", "hello", "hiya"]
+greetings.delete("hello")
+puts greetings
