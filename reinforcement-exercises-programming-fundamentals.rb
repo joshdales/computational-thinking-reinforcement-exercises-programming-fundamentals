@@ -20,3 +20,11 @@ trains.each do |train|
     trains_north << train
   end
 end
+
+trains_east = []
+
+trains.each do |train|
+  if train[:direction] == "east"
+    trains_east << train
+  end
+end
