@@ -41,3 +41,5 @@ end
 
 trains_direction(trains, "north")
 trains_direction(trains, "east")
+
+trains[4][:first_departure] = 6
