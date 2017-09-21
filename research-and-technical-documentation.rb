@@ -42,3 +42,9 @@ puts "delete"
 greetings = ["hi", "hello", "hiya"]
 greetings.delete("hello")
 puts greetings
+
+puts "pop"
+#Deletes the last element of an array
+greetings = ["hi", "hello", "hiya"]
+greetings.pop
+puts greetings
