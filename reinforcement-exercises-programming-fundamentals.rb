@@ -10,3 +10,4 @@ tains = [
 ]
 
 train_111 = trains[7][:direction]
+train_80B = trains[5][:frequency_in_minutes]
