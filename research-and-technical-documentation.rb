@@ -59,3 +59,8 @@ puts "has_key?"
 #Return true boolean value if the key is present
 h = { "c" => 300, "a" => 100, "d" => 400, "c" => 300  }
 puts h.has_key?("a")
+
+puts "has_value?"
+#Return true boolean value if any key in the hash has the value present
+h = { "c" => 300, "a" => 100, "d" => 400, "c" => 300  }
+puts h.has_value?("100")
