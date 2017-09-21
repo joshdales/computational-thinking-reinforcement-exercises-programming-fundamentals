@@ -21,7 +21,7 @@ polite_greeting = "Hi there, very nice to meet you."
 polite_greeting.split
 
 puts "start_with?"
-#Returns a boolean if a string starts with the value given
+#Returns a true boolean if a string starts with the value given
 puts "hello".start_with?("he")
 
 #ARRAY
@@ -54,3 +54,8 @@ puts "to_a"
 #Converts a hash into a nested array displayed as [key, value]
 h = { "c" => 300, "a" => 100, "d" => 400, "c" => 300  }
 puts h.to_a
+
+puts "has_key?"
+#Return true boolean value if the key is present
+h = { "c" => 300, "a" => 100, "d" => 400, "c" => 300  }
+puts h.has_key?("a")
