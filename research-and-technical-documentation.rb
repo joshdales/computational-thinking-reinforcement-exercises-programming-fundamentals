@@ -19,3 +19,8 @@ puts "split"
 #Breaks a string into an array word by word
 polite_greeting = "Hi there, very nice to meet you."
 polite_greeting.split
+
+puts "start_with?"
+#Returns a boolean if a string starts with the value given
+"hello".start_with?("he")
+"hello".start_with?("hi")
