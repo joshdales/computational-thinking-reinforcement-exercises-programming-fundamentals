@@ -12,3 +12,11 @@ tains = [
 train_111 = trains[7][:direction]
 train_80B = trains[5][:frequency_in_minutes]
 train_610 = trains[2][:direction]
+
+trains_north = []
+
+trains.each do |train|
+  if train[:direction] == "north"
+    trains_north << train
+  end
+end
